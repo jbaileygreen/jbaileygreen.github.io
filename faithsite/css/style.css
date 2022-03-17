@@ -1,0 +1,12 @@
+.logo {
+    max-width: 125px; 
+    /* background: #FFF; */
+    border-radius: 5px;
+    padding: 10px
+}
+
+nav#nav {
+    background: rgba(255,255,255,0.7) !important;
+    font-variant: small-caps;
+}
+
