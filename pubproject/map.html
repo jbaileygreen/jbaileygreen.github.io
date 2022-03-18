@@ -19,137 +19,50 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">UMCSort</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="data.html">Clergyes</a>
+            <a class="nav-link" aria-current="page" href="churches.html">Churches</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="clergy.html">Clergy</a>
           </li>
 
           <li class="nav-item">
+            <a class="nav-link" href="map.html">Map</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="trends.html">Trends</a>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="sandbox.html">Sandbox</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="photos.html">Photos</a>
-          </li>
+          
       </div>
     </div>
   </nav>
 
-
-  <!-- DIDNT WORK - WHY NOT?
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">JBG</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="data.html">Data</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="publications.html">Publications</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="sandbox.html">Sandbox</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="photos.html">Photos</a>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-
   <div class="container py-5">
     <div class="row">
       <div class="col-12 col-sm-6">
-        <h1>Clergy</h1>
-        <p>Who are the Clergy in the UMC? Use the tools below to search for and learn about particular clergy and their affiliation</p>
-        <form class="row g-3">
-          <div class="col-auto">
-            <label for="searchInput" class="visually-hidden">Input</label>
-            <input type="search" class="form-control" id="searchInput" placeholder="enter text..">
-          </div>
-          <div class="col-auto">
-            <a onclick="updateClergyTable()" id="" class="btn btn-primary" href="#" role="button">Search clergy</a>
-          </div>
-        </form>
+        <h1>Map</h1>
+        <p>This is an interactive map featuring the location of all UMC churches across the globe.</p>
       </div>
       <div class="d-none d-sm-block col-sm-6">
         <img class='img-fluid' src="https://www.picsum.photos/2000/1000" alt="">
       </div>
     </div>
-    <div class="row">
-      <table class="table">
-        <tbody id="clergy-table">
-
-        <tr>
-          <th>Clergyperson</th>
-          <th>Conference</th>
-          <th>Current Status</th>
-          <th>Learn More</th>
-        </tr>
-
-        <tr>
-          <td>Rev. Leonard Nemoy</td>
-          <td>Hollywood, CA</td>
-          <td>Active</td>
-          <td><a name="" id="" class="btn btn-link" href="/234524" role="button">&gt;</a></td>
-        </tr>
-
-        
-        <tr>
-          <td>Rev. Leonard Nemoy</td>
-          <td>Hollywood, CA</td>
-          <td>Active</td>
-          <td><a name="" id="" class="btn btn-link" href="/234524" role="button">&gt;</a></td>
-        </tr>
-
-        <tr>
-          <td>Rev. Leonard Nemoy</td>
-          <td>Hollywood, CA</td>
-          <td>Active</td>
-          <td><a name="" id="" class="btn btn-link" href="/234524" role="button">&gt;</a></td>
-        </tr>
-
-        <tr>
-          <td>Rev. Leonard Nemoy</td>
-          <td>Hollywood, CA</td>
-          <td>Active</td>
-          <td><a name="" id="" class="btn btn-link" href="/234524" role="button">&gt;</a></td>
-        </tr>
-
-        <tr>
-          <td>Rev. Leonard Nemoy</td>
-          <td>Hollywood, CA</td>
-          <td>Active</td>
-          <td><a name="" id="" class="btn btn-link" href="/234524" role="button">&gt;</a></td>
-        </tr>
-
-        </tbody>
-      </table>
+    <div class="row my-5">
+      <div class="col-12">
+        <img src="images/placeholder-map.gif" alt="" class="img-fluid">
+      </div>
     </div>
   </div>
 
