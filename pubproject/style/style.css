@@ -1,0 +1,30 @@
+h1{
+    color: darkred;
+}
+
+.bg-img {
+    background-image: url("../images/ferriswheel.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh
+}
+
+.transluc {
+    background-color:rgba(220, 220, 220, 0.7)
+}
+
+.demcols div::first-letter {
+    font-family: serif;
+    font-size: 3em;
+    line-height: 150%;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 2px;
+    float: left;
+    color: purple;
+}
+
+h5 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
