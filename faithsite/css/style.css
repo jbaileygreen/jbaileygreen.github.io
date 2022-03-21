@@ -5,8 +5,52 @@
     padding: 10px
 }
 
+@keyframes color-reverse {
+    from {background: rgba(255,255,255,1);}
+    to {background: rgba(255,255,255,0.5);}
+  }
+
 nav#nav {
-    background: rgba(255,255,255,0.7) !important;
+    background: rgba(255,255,255,0.5);
     font-variant: small-caps;
+    animation-name: color-reverse;
+    animation-duration: 0.3s;
 }
 
+@keyframes color {
+    from {background: rgba(255,255,255,0.5);}
+    to {background: rgba(255,255,255,1);}
+  }
+
+nav#nav.scrolled-down {
+    background: rgba(255,255,255,1);
+    padding: 0;
+    animation-name: color;
+    animation-duration: 0.5s;
+    border-bottom: solid thin #BBB;
+}
+
+nav#nav.scrolled-down .logo {
+    width: 75px;
+}
+
+div.hero-homepage {
+    background-image:url('../img/FaithBldgFall.jpg');
+    background-size: cover;
+    
+    /* min-height: 100vh; */
+}
+
+div.hero-content {
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 575px) {
+    nav#nav {
+        background: rgba(255,255,255,1) !important; 
+    }
+}
+
+li.nav-item a {
+    text-align: left;
+}
