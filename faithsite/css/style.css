@@ -54,3 +54,26 @@ div.hero-content {
 li.nav-item a {
     text-align: left;
 }
+
+.latest-head {
+    font-variant: small-caps;
+}
+
+.worship-link, .education-link, .mission-link, .fellowship-link {
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+
+.worship-link, .worship-link svg {color: #ffd700; fill: #ffd700;}
+.worship-link:hover, .worship-link svg:hover {color: #bf9700; fill: #bf9700;}
+
+.education-link, .education-link svg {color: #00A000; fill: #00A000;} 
+.education-link:hover, .education-link svg:hover {color: #008000; fill: #008000;}
+
+
+.mission-link, .mission-link svg {color: #ff4444; fill: #ff4444;}
+.mission-link:hover, .mission-link svg:hover {color: #c00000; fill: #c00000;}
+
+.fellowship-link, .fellowship-link svg {color: #53bbdd; fill: #53bbdd;}
+.fellowship-link:hover, .fellowship-link svg:hover {color: #30839e; fill: #30839e;}
